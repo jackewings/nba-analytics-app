@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Ignore data folders and files
+data/
+
+# macOS system files
+.DS_Store
