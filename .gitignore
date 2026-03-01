@@ -14,3 +14,32 @@ data/
 
 # macOS system files
 .DS_Store
+
+# Ignore project context file
+PROJECT_CONTEXT.md
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Env files / secrets
+.env
+.env.*
+!.env.example
+
+# Local model artifacts (usually keep out of git)
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local model artifacts
+models/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
